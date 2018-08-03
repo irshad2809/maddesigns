@@ -228,10 +228,33 @@ p {
   margin: 0 auto;
 }
 
-.masthead {
+.banner-bg-1   {
+
+background: linear-gradient(rgba(28, 32, 37, 0.9215686274509803), rgba(28, 32, 37, 0.9215686274509803)), url(https://irshad2809.github.io/maddesigns/img/banner-bg.jpg);
+height: 635px;
+}
+.banner-bg-2   {
+
+background: linear-gradient(rgba(28, 32, 37, 0.9215686274509803), rgba(28, 32, 37, 0.9215686274509803)), url(https://irshad2809.github.io/maddesigns/img/banner-bg-1.jpg);
+height: 635px;
+}
+.banner-bg-3   {
+
+background: linear-gradient(rgba(28, 32, 37, 0.9215686274509803), rgba(28, 32, 37, 0.9215686274509803)), url(https://irshad2809.github.io/maddesigns/img/banner-bg-2.jpg);
+height: 635px;
+}
+
+.carousel-indicators li{
+  width: 15px;
+  height: 15px;
+}
+.carousel-indicators li:hover{
+  background-color: #fff;
+}
+/* .masthead {
   background: linear-gradient(rgba(28, 32, 37, 0.9215686274509803), rgba(28, 32, 37, 0.9215686274509803)), url(https://irshad2809.github.io/maddesigns/img/banner-bg.jpg);
   height: 635px;
-}
+} */
 
 div.banner-text-bg {
   background: url(https://irshad2809.github.io/maddesigns/img/banner-text-box.png);
