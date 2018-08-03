@@ -231,19 +231,22 @@ p {
 .banner-bg-1   {
 
 background: linear-gradient(rgba(28, 32, 37, 0.9215686274509803), rgba(28, 32, 37, 0.9215686274509803)), url(https://irshad2809.github.io/maddesigns/img/banner-bg.jpg);
-height: 635px;
+
 }
 .banner-bg-2   {
 
 background: linear-gradient(rgba(28, 32, 37, 0.9215686274509803), rgba(28, 32, 37, 0.9215686274509803)), url(https://irshad2809.github.io/maddesigns/img/banner-bg-1.jpg);
-height: 635px;
+
 }
 .banner-bg-3   {
 
 background: linear-gradient(rgba(28, 32, 37, 0.9215686274509803), rgba(28, 32, 37, 0.9215686274509803)), url(https://irshad2809.github.io/maddesigns/img/banner-bg-2.jpg);
-height: 635px;
-}
 
+}
+.banner-bg-1 , .banner-bg-2 , .banner-bg-3{
+
+ min-height: 100vh;
+}
 .carousel-indicators li{
   width: 15px;
   height: 15px;
@@ -266,7 +269,26 @@ div.banner-text-bg {
   color: #fff;
   font-size: 30px;
 }
-
+.banner-3-h2{
+  color: #fff;
+  font-size: 50px;
+}
+.creative{
+  color: #e84c09;
+  font-size: 60px;
+  font-weight: bold;
+}
+.btn-transparent{
+  background-color: #00000000;
+    color: #fff;
+    border: solid 1px #fffbfb61;
+    border-radius: 25px;
+    padding: 5px 35px;
+    font-size: 20px;
+}
+.btn-transparent:hover{
+  border-color:  #fff;
+}
 .home-about-us {
   margin: 40px auto;
 }
@@ -297,6 +319,110 @@ div.banner-text-bg {
   font-family: 'roboto-medium';
 }
 
+/* services */
+.mb-30{
+  margin-bottom: 30px;
+}
+.mt-30{
+  margin-top: 30px;
+}
+.services{
+background: #1C2025 ;
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.services-h2{
+  text-align: center;
+  border: 1px solid #dddddd !important;
+    display: inline-block;
+    padding: 25px 30px;
+    margin-bottom: 15px;
+    color: #fafafa;
+      font-family: 'roboto-medium'
+}
+.icon-box-basic {
+    margin-bottom: 40px;
+    font-family: 'roboto-medium'
+}
+.icon-box-basic i {
+    color: #fafafa;
+    font-size: 42px;
+    margin-bottom: 20px;
+    background-color: rgba(250, 250, 250, 0.03);
+    padding: 14px 10px;
+    width: 80px;
+    height: 70px;
+}
+.icon-box-basic i:hover{
+    background-color:rgb(232, 76, 9)  ;
+}
+.icon-box-basic h5 {
+    margin-bottom: 10px;
+      color: #fafafa;
+      text-transform: uppercase;
+}
+.icon-box-basic p {
+    margin: 0 36px;
+    font-weight: 300;
+    color: #7c7c7c;
+    font-family: 'roboto-light'
+}
+.icon-box-basic h5::after, .icon-box-basic h5::before {
+    content: '\f111';
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    font-size: 4px;
+    color: #EA2236;
+    margin: auto 10px;
+}
+/* numbeers */
+.counting-num{
+  padding: 50px 0 100px;
+    background: linear-gradient(rgba(28, 32, 37, 0.88), rgba(28, 32, 37, 0.88)), url(../img/counting-num-bg.jpg);
+
+  position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: inherit;
+      overflow: hidden;
+}
+.number {
+    color: #e84c09;
+    font-size: 51px;
+  margin-bottom: 2rem;
+    font-family: 'roboto-medium';
+}
+.number-txt {
+    color: #fff;
+    font-family: 'roboto-medium';
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+.numbers-a{
+
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-size: 36px;
+    text-decoration: none;
+    margin-bottom: 35px;
+    padding: 25px 27px 23px;
+    border: 1px solid rgba(124, 124, 124, 0.33);
+    border-radius: 100px;
+    text-align: center;
+    line-height: 36px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+}
+.numbers-a:hover{
+  color: #fff;
+  border-color: #e84c09;
+}
 /**footer**/
 
 footer.footer {
@@ -386,6 +512,18 @@ footer.footer {
   .footer-social li {
     margin: 0 1px;
   }
+  .banner-2-text{
+    text-align:center;
+    margin-top: 20%;
+  }
+  .banner img{
+    display: block;
+    margin: 0 auto;
+  }
+  .banner-3-h2 br{
+    content: " ";
+  }
+
 }
 
 /*modern mobiles */
@@ -411,6 +549,12 @@ footer.footer {
   }
   .footer-social {
     margin-left: 20%;
+  }
+  .banner-2-text{
+    padding: 0 15%;
+  }
+  .banner img{
+    max-width: 90vw;
   }
 }
 
